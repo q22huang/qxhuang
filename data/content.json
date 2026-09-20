@@ -1,7 +1,7 @@
 {
   "version": 1,
   "siteId": "qingxu-huang-academic",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "profile": {
     "name": {
       "zh": "黄庆旭",
@@ -3983,6 +3983,15 @@
   ],
   "students": [
     {
+      "id": "students-mu9nn1lo-qwz8na",
+      "text": {
+        "zh": "赵梓喨，王阳（工程博士）",
+        "en": "Ziliang Zhao; Yang Wang (engineering doctorate)"
+      },
+      "year": 2026,
+      "group": "doctoral"
+    },
+    {
       "id": "student-0-0",
       "group": "doctoral",
       "year": 2025,
@@ -4098,6 +4107,15 @@
         "zh": "高宾（与何春阳教授合作指导）",
         "en": "Bin Gao — co-supervised with Prof. Chunyang He"
       }
+    },
+    {
+      "id": "students-mu9np19x-5prac1",
+      "text": {
+        "zh": "钱炜杉",
+        "en": "Weishan Qian"
+      },
+      "year": 2026,
+      "group": "masters"
     },
     {
       "id": "student-1-0",
