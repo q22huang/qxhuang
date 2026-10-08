@@ -15,7 +15,7 @@
 ## 处理过的差异
 
 - 英文简介正文仍使用 Associate Professor，但同页履历及中文主页均列明 2024 年 8 月起任 Professor，因此本站采用 Professor。
-- Deputy Dean 来源于中文主页的“自然资源学院副院长”。School of Natural Resources 和 Faculty of Geographical Science 采用英文论文作者单位中的表述。
+- School of Natural Resources 和 Faculty of Geographical Science 采用英文论文作者单位中的表述。页面展示职务按本人要求精简为 Professor / 教授。
 - 2013–2016 年职务使用本人学校英文履历中的 Assistant Professor，对应中文主页的“讲师”。
 - 2019 年北京市自然科学基金项目在英文页写到 2020 年，中文页写到 2021 年；本站采用中文页日期。2013 年项目编号同样采用中文页的 2013-C-03。
 - 英文页的部分中文论文存在重复、年份和期刊信息错位。本站以中文条目保持 39 条记录范围，并修正能够根据原中文资料明确对应的重复与错位。
@@ -26,7 +26,7 @@
 
 ## 已核实的学术链接
 
-ORCID `0000-0003-4902-716X` 对应论文作者 Qingxu Huang、邮箱 qxhuang@bnu.edu.cn 及北京师范大学单位，来源：
+ORCID `0000-0003-4902-716X` 对应论文作者 Qingxu Huang、邮箱 qxhuang [at] bnu.edu.cn 及北京师范大学单位，来源：
 
 - https://www.nature.com/articles/s41467-023-40908-4
 - https://journals.sagepub.com/doi/10.1177/2754124X261439425
@@ -41,16 +41,26 @@ ORCID `0000-0003-4902-716X` 对应论文作者 Qingxu Huang、邮箱 qxhuang@bnu
 
 其他 DOI 从学校主页明示的书目复制。本站保留学校页所列作者名单与身份，不因搜索摘要省略作者而改动作者列表。
 
-未生成推测性的 Google Scholar、ResearchGate、社交账号、GitHub 用户名、下载 PDF 或数据资源链接。
+ResearchGate 与 Google Scholar 链接已于 2026-10-08 核对并添加；其他账号及下载资源未作推测。
 
 ## 双语版本与后续维护
 
 本站将两种语言集中保存在 `data/content.json`，由同一个模板生成英文和中文各六个页面。语言切换保持当前页面和栏目位置。英文文献在中文页保留原始英文题名，中文文献则分别显示中文题名与整理后的英文译名。
 
-浏览器编辑器 `editor.html` 可以维护全部双语字段、增加或移除条目、更换照片、设置首页代表论文，以及向现有页面添加自定义栏目。编辑器只处理本机内容，不连接 GitHub；导出的 ZIP 包需由本人上传发布。编辑器没有自动翻译功能，新增内容的英文与中文须分别维护。
+浏览器编辑器 `editor.html` 可以维护全部双语字段、增加或移除条目、更换照片、以及向现有页面添加自定义栏目。编辑器只处理本机内容，不连接 GitHub；导出的 ZIP 包需由本人上传发布。编辑器没有自动翻译功能，新增内容的英文与中文须分别维护。
 
 ## 交付验证
 
 已检查十二个页面的本地链接、锚点、双语数据一致性及打包资源。已通过浏览器实际验证新增、复制、排序、移除、撤销、草稿恢复、备份导入、预览和 ZIP 下载；下载包中的新增资料与生成页面相符。正式交付包不含测试条目。
 
 自动测试浏览器的 URL 安全策略不允许访问 `file://`，因此无法直接实测“双击本地文件打开”。网站包不依赖在线字体、CDN 或运行时资料请求，已完成资源完整性和 Windows ZIP 解压读取检查。
+
+## 2026-10-08 修改
+
+- 按本人要求简化中英文页面：移除装饰性页眉、重复说明、左侧研究标签、首页精选论文区及自我介绍首句，职务仅显示 Professor / 教授。完整论文目录保留。
+- 研究简介使用本人提供的英文文本，并同步中文。邮箱统一以 `[at]` 显示。
+- ResearchGate：https://www.researchgate.net/profile/Qingxu-Huang ，姓名、学校及研究领域与本人一致。
+- Google Scholar：https://scholar.google.com/citations?user=uOxCebIAAAAJ ，个人资料为 Qingxu Huang / Beijing Normal University，首页链接指向本人提供的学校资料页。
+- 课程英文名称已改为 Literature Reading and Academic Writing。
+- 根据本人对在读名单的说明，按 2023 级及以后设置博士在读状态，并显示 Ph.D. candidate。更早的记录保留为未标注状态，不据此推断毕业年份。
+- 内容编辑器同步新增学术主页链接及学生在读状态，移除失效的首页精选论文选项。原版 ZIP 保留，新版另行打包。
